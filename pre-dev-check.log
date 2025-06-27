@@ -1,0 +1,372 @@
+[2025-06-25T18:34:31.303Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-25T18:34:31.305Z] [INFO] package.json ✓
+[2025-06-25T18:34:31.305Z] [INFO] vite.config.ts ✓
+[2025-06-25T18:34:31.307Z] [INFO] tsconfig.json ✓
+[2025-06-25T18:34:31.308Z] [INFO] src/main.tsx ✓
+[2025-06-25T18:34:31.308Z] [INFO] src/App.tsx ✓
+[2025-06-25T18:34:31.309Z] [INFO] index.html ✓
+[2025-06-25T18:34:31.311Z] [INFO] react ✓
+[2025-06-25T18:34:31.319Z] [INFO] react-dom ✓
+[2025-06-25T18:34:31.319Z] [INFO] vite ✓
+[2025-06-25T18:34:31.321Z] [INFO] .env file found ✓
+[2025-06-25T18:34:31.334Z] [INFO] Port 5199 is available ✓
+[2025-06-25T18:35:36.310Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-25T18:35:36.310Z] [INFO] package.json ✓
+[2025-06-25T18:35:36.311Z] [INFO] vite.config.ts ✓
+[2025-06-25T18:35:36.312Z] [INFO] tsconfig.json ✓
+[2025-06-25T18:35:36.312Z] [INFO] src/main.tsx ✓
+[2025-06-25T18:35:36.312Z] [INFO] src/App.tsx ✓
+[2025-06-25T18:35:36.312Z] [INFO] index.html ✓
+[2025-06-25T18:35:36.314Z] [INFO] react ✓
+[2025-06-25T18:35:36.320Z] [INFO] react-dom ✓
+[2025-06-25T18:35:36.321Z] [INFO] vite ✓
+[2025-06-25T18:35:36.322Z] [INFO] .env file found ✓
+[2025-06-25T18:35:36.332Z] [INFO] Port 5199 is available ✓
+[2025-06-25T18:57:39.464Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-25T18:57:39.465Z] [INFO] package.json ✓
+[2025-06-25T18:57:39.466Z] [INFO] vite.config.ts ✓
+[2025-06-25T18:57:39.466Z] [INFO] tsconfig.json ✓
+[2025-06-25T18:57:39.466Z] [INFO] src/main.tsx ✓
+[2025-06-25T18:57:39.467Z] [INFO] src/App.tsx ✓
+[2025-06-25T18:57:39.467Z] [INFO] index.html ✓
+[2025-06-25T18:57:39.468Z] [INFO] react ✓
+[2025-06-25T18:57:39.476Z] [INFO] react-dom ✓
+[2025-06-25T18:57:39.476Z] [INFO] vite ✓
+[2025-06-25T18:57:39.477Z] [INFO] .env file found ✓
+[2025-06-25T18:57:39.487Z] [INFO] Port 5199 is available ✓
+[2025-06-25T18:58:22.257Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-25T18:58:22.258Z] [INFO] package.json ✓
+[2025-06-25T18:58:22.259Z] [INFO] vite.config.ts ✓
+[2025-06-25T18:58:22.259Z] [INFO] tsconfig.json ✓
+[2025-06-25T18:58:22.259Z] [INFO] src/main.tsx ✓
+[2025-06-25T18:58:22.260Z] [INFO] src/App.tsx ✓
+[2025-06-25T18:58:22.260Z] [INFO] index.html ✓
+[2025-06-25T18:58:22.262Z] [INFO] react ✓
+[2025-06-25T18:58:22.270Z] [INFO] react-dom ✓
+[2025-06-25T18:58:22.271Z] [INFO] vite ✓
+[2025-06-25T18:58:22.272Z] [INFO] .env file found ✓
+[2025-06-25T18:58:22.282Z] [INFO] Port 5199 is available ✓
+[2025-06-25T18:58:55.311Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-25T18:58:55.312Z] [INFO] package.json ✓
+[2025-06-25T18:58:55.313Z] [INFO] vite.config.ts ✓
+[2025-06-25T18:58:55.313Z] [INFO] tsconfig.json ✓
+[2025-06-25T18:58:55.313Z] [INFO] src/main.tsx ✓
+[2025-06-25T18:58:55.313Z] [INFO] src/App.tsx ✓
+[2025-06-25T18:58:55.314Z] [INFO] index.html ✓
+[2025-06-25T18:58:55.315Z] [INFO] react ✓
+[2025-06-25T18:58:55.325Z] [INFO] react-dom ✓
+[2025-06-25T18:58:55.326Z] [INFO] vite ✓
+[2025-06-25T18:58:55.327Z] [INFO] .env file found ✓
+[2025-06-25T18:58:55.338Z] [INFO] Port 5199 is available ✓
+[2025-06-25T18:59:20.544Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-25T18:59:20.545Z] [INFO] package.json ✓
+[2025-06-25T18:59:20.545Z] [INFO] vite.config.ts ✓
+[2025-06-25T18:59:20.545Z] [INFO] tsconfig.json ✓
+[2025-06-25T18:59:20.545Z] [INFO] src/main.tsx ✓
+[2025-06-25T18:59:20.546Z] [INFO] src/App.tsx ✓
+[2025-06-25T18:59:20.546Z] [INFO] index.html ✓
+[2025-06-25T18:59:20.548Z] [INFO] react ✓
+[2025-06-25T18:59:20.555Z] [INFO] react-dom ✓
+[2025-06-25T18:59:20.556Z] [INFO] vite ✓
+[2025-06-25T18:59:20.558Z] [INFO] .env file found ✓
+[2025-06-25T18:59:20.568Z] [INFO] Port 5199 is available ✓
+[2025-06-25T18:59:44.869Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-25T18:59:44.870Z] [INFO] package.json ✓
+[2025-06-25T18:59:44.870Z] [INFO] vite.config.ts ✓
+[2025-06-25T18:59:44.870Z] [INFO] tsconfig.json ✓
+[2025-06-25T18:59:44.871Z] [INFO] src/main.tsx ✓
+[2025-06-25T18:59:44.871Z] [INFO] src/App.tsx ✓
+[2025-06-25T18:59:44.872Z] [INFO] index.html ✓
+[2025-06-25T18:59:44.873Z] [INFO] react ✓
+[2025-06-25T18:59:44.884Z] [INFO] react-dom ✓
+[2025-06-25T18:59:44.885Z] [INFO] vite ✓
+[2025-06-25T18:59:44.886Z] [INFO] .env file found ✓
+[2025-06-25T18:59:44.897Z] [INFO] Port 5199 is available ✓
+[2025-06-25T19:14:44.913Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-25T19:14:44.914Z] [INFO] package.json ✓
+[2025-06-25T19:14:44.914Z] [INFO] vite.config.ts ✓
+[2025-06-25T19:14:44.915Z] [INFO] tsconfig.json ✓
+[2025-06-25T19:14:44.915Z] [INFO] src/main.tsx ✓
+[2025-06-25T19:14:44.916Z] [INFO] src/App.tsx ✓
+[2025-06-25T19:14:44.916Z] [INFO] index.html ✓
+[2025-06-25T19:14:44.917Z] [INFO] react ✓
+[2025-06-25T19:14:44.926Z] [INFO] react-dom ✓
+[2025-06-25T19:14:44.926Z] [INFO] vite ✓
+[2025-06-25T19:14:44.928Z] [INFO] .env file found ✓
+[2025-06-25T19:14:44.938Z] [INFO] Port 5199 is available ✓
+[2025-06-25T19:26:46.539Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-25T19:26:46.540Z] [INFO] package.json ✓
+[2025-06-25T19:26:46.541Z] [INFO] vite.config.ts ✓
+[2025-06-25T19:26:46.542Z] [INFO] tsconfig.json ✓
+[2025-06-25T19:26:46.542Z] [INFO] src/main.tsx ✓
+[2025-06-25T19:26:46.542Z] [INFO] src/App.tsx ✓
+[2025-06-25T19:26:46.542Z] [INFO] index.html ✓
+[2025-06-25T19:26:46.544Z] [INFO] react ✓
+[2025-06-25T19:26:46.552Z] [INFO] react-dom ✓
+[2025-06-25T19:26:46.552Z] [INFO] vite ✓
+[2025-06-25T19:26:46.553Z] [INFO] .env file found ✓
+[2025-06-25T19:26:46.565Z] [INFO] Port 5199 is available ✓
+[2025-06-25T22:30:31.259Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-25T22:30:31.260Z] [INFO] package.json ✓
+[2025-06-25T22:30:31.261Z] [INFO] vite.config.ts ✓
+[2025-06-25T22:30:31.261Z] [INFO] tsconfig.json ✓
+[2025-06-25T22:30:31.261Z] [INFO] src/main.tsx ✓
+[2025-06-25T22:30:31.262Z] [INFO] src/App.tsx ✓
+[2025-06-25T22:30:31.262Z] [INFO] index.html ✓
+[2025-06-25T22:30:31.264Z] [INFO] react ✓
+[2025-06-25T22:30:31.271Z] [INFO] react-dom ✓
+[2025-06-25T22:30:31.272Z] [INFO] vite ✓
+[2025-06-25T22:30:31.273Z] [INFO] .env file found ✓
+[2025-06-25T22:30:31.286Z] [INFO] Port 5199 is available ✓
+[2025-06-26T03:10:03.510Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-26T03:10:03.511Z] [INFO] package.json ✓
+[2025-06-26T03:10:03.511Z] [INFO] vite.config.ts ✓
+[2025-06-26T03:10:03.511Z] [INFO] tsconfig.json ✓
+[2025-06-26T03:10:03.511Z] [INFO] src/main.tsx ✓
+[2025-06-26T03:10:03.512Z] [INFO] src/App.tsx ✓
+[2025-06-26T03:10:03.512Z] [INFO] index.html ✓
+[2025-06-26T03:10:03.514Z] [INFO] react ✓
+[2025-06-26T03:10:03.521Z] [INFO] react-dom ✓
+[2025-06-26T03:10:03.522Z] [INFO] vite ✓
+[2025-06-26T03:10:03.523Z] [INFO] .env file found ✓
+[2025-06-26T03:10:03.533Z] [INFO] Port 5199 is available ✓
+[2025-06-26T03:16:40.434Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-26T03:16:40.436Z] [INFO] package.json ✓
+[2025-06-26T03:16:40.437Z] [INFO] vite.config.ts ✓
+[2025-06-26T03:16:40.439Z] [INFO] tsconfig.json ✓
+[2025-06-26T03:16:40.439Z] [INFO] src/main.tsx ✓
+[2025-06-26T03:16:40.440Z] [INFO] src/App.tsx ✓
+[2025-06-26T03:16:40.440Z] [INFO] index.html ✓
+[2025-06-26T03:16:40.443Z] [INFO] react ✓
+[2025-06-26T03:16:40.454Z] [INFO] react-dom ✓
+[2025-06-26T03:16:40.456Z] [INFO] vite ✓
+[2025-06-26T03:16:40.458Z] [INFO] .env file found ✓
+[2025-06-26T03:16:40.477Z] [INFO] Port 5199 is available ✓
+[2025-06-26T04:01:10.345Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-26T04:01:10.346Z] [INFO] package.json ✓
+[2025-06-26T04:01:10.346Z] [INFO] vite.config.ts ✓
+[2025-06-26T04:01:10.347Z] [INFO] tsconfig.json ✓
+[2025-06-26T04:01:10.347Z] [INFO] src/main.tsx ✓
+[2025-06-26T04:01:10.347Z] [INFO] src/App.tsx ✓
+[2025-06-26T04:01:10.348Z] [INFO] index.html ✓
+[2025-06-26T04:01:10.349Z] [INFO] react ✓
+[2025-06-26T04:01:10.359Z] [INFO] react-dom ✓
+[2025-06-26T04:01:10.359Z] [INFO] vite ✓
+[2025-06-26T04:01:10.364Z] [INFO] .env file found ✓
+[2025-06-26T04:01:10.380Z] [INFO] Port 5199 is available ✓
+[2025-06-26T05:08:40.519Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-26T05:08:40.520Z] [INFO] package.json ✓
+[2025-06-26T05:08:40.521Z] [INFO] vite.config.ts ✓
+[2025-06-26T05:08:40.521Z] [INFO] tsconfig.json ✓
+[2025-06-26T05:08:40.521Z] [INFO] src/main.tsx ✓
+[2025-06-26T05:08:40.522Z] [INFO] src/App.tsx ✓
+[2025-06-26T05:08:40.522Z] [INFO] index.html ✓
+[2025-06-26T05:08:40.524Z] [INFO] react ✓
+[2025-06-26T05:08:40.531Z] [INFO] react-dom ✓
+[2025-06-26T05:08:40.532Z] [INFO] vite ✓
+[2025-06-26T05:08:40.533Z] [INFO] .env file found ✓
+[2025-06-26T05:08:40.543Z] [INFO] Port 5199 is available ✓
+[2025-06-26T05:19:29.898Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-26T05:19:29.899Z] [INFO] package.json ✓
+[2025-06-26T05:19:29.899Z] [INFO] vite.config.ts ✓
+[2025-06-26T05:19:29.900Z] [INFO] tsconfig.json ✓
+[2025-06-26T05:19:29.900Z] [INFO] src/main.tsx ✓
+[2025-06-26T05:19:29.900Z] [INFO] src/App.tsx ✓
+[2025-06-26T05:19:29.900Z] [INFO] index.html ✓
+[2025-06-26T05:19:29.902Z] [INFO] react ✓
+[2025-06-26T05:19:29.911Z] [INFO] react-dom ✓
+[2025-06-26T05:19:29.912Z] [INFO] vite ✓
+[2025-06-26T05:19:29.914Z] [INFO] .env file found ✓
+[2025-06-26T05:19:29.928Z] [INFO] Port 5199 is available ✓
+[2025-06-26T08:13:07.545Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-26T08:13:07.546Z] [INFO] package.json ✓
+[2025-06-26T08:13:07.547Z] [INFO] vite.config.ts ✓
+[2025-06-26T08:13:07.548Z] [INFO] tsconfig.json ✓
+[2025-06-26T08:13:07.548Z] [INFO] src/main.tsx ✓
+[2025-06-26T08:13:07.549Z] [INFO] src/App.tsx ✓
+[2025-06-26T08:13:07.549Z] [INFO] index.html ✓
+[2025-06-26T08:13:07.550Z] [INFO] react ✓
+[2025-06-26T08:13:07.558Z] [INFO] react-dom ✓
+[2025-06-26T08:13:07.559Z] [INFO] vite ✓
+[2025-06-26T08:13:07.560Z] [INFO] .env file found ✓
+[2025-06-26T08:13:07.571Z] [INFO] Port 5199 is available ✓
+[2025-06-26T08:14:38.909Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-26T08:14:38.910Z] [INFO] package.json ✓
+[2025-06-26T08:14:38.910Z] [INFO] vite.config.ts ✓
+[2025-06-26T08:14:38.911Z] [INFO] tsconfig.json ✓
+[2025-06-26T08:14:38.911Z] [INFO] src/main.tsx ✓
+[2025-06-26T08:14:38.912Z] [INFO] src/App.tsx ✓
+[2025-06-26T08:14:38.912Z] [INFO] index.html ✓
+[2025-06-26T08:14:38.914Z] [INFO] react ✓
+[2025-06-26T08:14:38.922Z] [INFO] react-dom ✓
+[2025-06-26T08:14:38.923Z] [INFO] vite ✓
+[2025-06-26T08:14:38.924Z] [INFO] .env file found ✓
+[2025-06-26T08:14:38.934Z] [INFO] Port 5199 is available ✓
+[2025-06-26T08:15:49.906Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-26T08:15:49.907Z] [INFO] package.json ✓
+[2025-06-26T08:15:49.908Z] [INFO] vite.config.ts ✓
+[2025-06-26T08:15:49.908Z] [INFO] tsconfig.json ✓
+[2025-06-26T08:15:49.908Z] [INFO] src/main.tsx ✓
+[2025-06-26T08:15:49.909Z] [INFO] src/App.tsx ✓
+[2025-06-26T08:15:49.909Z] [INFO] index.html ✓
+[2025-06-26T08:15:49.911Z] [INFO] react ✓
+[2025-06-26T08:15:49.918Z] [INFO] react-dom ✓
+[2025-06-26T08:15:49.919Z] [INFO] vite ✓
+[2025-06-26T08:15:49.920Z] [INFO] .env file found ✓
+[2025-06-26T08:15:49.929Z] [INFO] Port 5199 is available ✓
+[2025-06-26T08:24:05.721Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-26T08:24:05.722Z] [INFO] package.json ✓
+[2025-06-26T08:24:05.723Z] [INFO] vite.config.ts ✓
+[2025-06-26T08:24:05.723Z] [INFO] tsconfig.json ✓
+[2025-06-26T08:24:05.723Z] [INFO] src/main.tsx ✓
+[2025-06-26T08:24:05.724Z] [INFO] src/App.tsx ✓
+[2025-06-26T08:24:05.724Z] [INFO] index.html ✓
+[2025-06-26T08:24:05.726Z] [INFO] react ✓
+[2025-06-26T08:24:05.734Z] [INFO] react-dom ✓
+[2025-06-26T08:24:05.734Z] [INFO] vite ✓
+[2025-06-26T08:24:05.735Z] [INFO] .env file found ✓
+[2025-06-26T08:24:05.745Z] [INFO] Port 5199 is available ✓
+[2025-06-26T08:27:10.212Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-26T08:27:10.213Z] [INFO] package.json ✓
+[2025-06-26T08:27:10.214Z] [INFO] vite.config.ts ✓
+[2025-06-26T08:27:10.214Z] [INFO] tsconfig.json ✓
+[2025-06-26T08:27:10.214Z] [INFO] src/main.tsx ✓
+[2025-06-26T08:27:10.215Z] [INFO] src/App.tsx ✓
+[2025-06-26T08:27:10.215Z] [INFO] index.html ✓
+[2025-06-26T08:27:10.216Z] [INFO] react ✓
+[2025-06-26T08:27:10.222Z] [INFO] react-dom ✓
+[2025-06-26T08:27:10.222Z] [INFO] vite ✓
+[2025-06-26T08:27:10.223Z] [INFO] .env file found ✓
+[2025-06-26T08:27:10.232Z] [INFO] Port 5199 is available ✓
+[2025-06-26T08:29:06.544Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-26T08:29:06.545Z] [INFO] package.json ✓
+[2025-06-26T08:29:06.546Z] [INFO] vite.config.ts ✓
+[2025-06-26T08:29:06.546Z] [INFO] tsconfig.json ✓
+[2025-06-26T08:29:06.546Z] [INFO] src/main.tsx ✓
+[2025-06-26T08:29:06.547Z] [INFO] src/App.tsx ✓
+[2025-06-26T08:29:06.547Z] [INFO] index.html ✓
+[2025-06-26T08:29:06.548Z] [INFO] react ✓
+[2025-06-26T08:29:06.554Z] [INFO] react-dom ✓
+[2025-06-26T08:29:06.555Z] [INFO] vite ✓
+[2025-06-26T08:29:06.556Z] [INFO] .env file found ✓
+[2025-06-26T08:29:06.565Z] [INFO] Port 5199 is available ✓
+[2025-06-26T14:40:19.215Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-26T14:40:19.216Z] [INFO] package.json ✓
+[2025-06-26T14:40:19.216Z] [INFO] vite.config.ts ✓
+[2025-06-26T14:40:19.216Z] [INFO] tsconfig.json ✓
+[2025-06-26T14:40:19.217Z] [INFO] src/main.tsx ✓
+[2025-06-26T14:40:19.217Z] [INFO] src/App.tsx ✓
+[2025-06-26T14:40:19.217Z] [INFO] index.html ✓
+[2025-06-26T14:40:19.219Z] [INFO] react ✓
+[2025-06-26T14:40:19.227Z] [INFO] react-dom ✓
+[2025-06-26T14:40:19.227Z] [INFO] vite ✓
+[2025-06-26T14:40:19.229Z] [INFO] .env file found ✓
+[2025-06-26T14:40:19.240Z] [INFO] Port 5199 is available ✓
+[2025-06-26T14:44:29.183Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-26T14:44:29.184Z] [INFO] package.json ✓
+[2025-06-26T14:44:29.184Z] [INFO] vite.config.ts ✓
+[2025-06-26T14:44:29.184Z] [INFO] tsconfig.json ✓
+[2025-06-26T14:44:29.185Z] [INFO] src/main.tsx ✓
+[2025-06-26T14:44:29.185Z] [INFO] src/App.tsx ✓
+[2025-06-26T14:44:29.186Z] [INFO] index.html ✓
+[2025-06-26T14:44:29.187Z] [INFO] react ✓
+[2025-06-26T14:44:29.194Z] [INFO] react-dom ✓
+[2025-06-26T14:44:29.195Z] [INFO] vite ✓
+[2025-06-26T14:44:29.196Z] [INFO] .env file found ✓
+[2025-06-26T14:44:29.205Z] [INFO] Port 5199 is available ✓
+[2025-06-26T14:45:59.663Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-26T14:45:59.664Z] [INFO] package.json ✓
+[2025-06-26T14:45:59.664Z] [INFO] vite.config.ts ✓
+[2025-06-26T14:45:59.665Z] [INFO] tsconfig.json ✓
+[2025-06-26T14:45:59.665Z] [INFO] src/main.tsx ✓
+[2025-06-26T14:45:59.665Z] [INFO] src/App.tsx ✓
+[2025-06-26T14:45:59.666Z] [INFO] index.html ✓
+[2025-06-26T14:45:59.667Z] [INFO] react ✓
+[2025-06-26T14:45:59.672Z] [INFO] react-dom ✓
+[2025-06-26T14:45:59.673Z] [INFO] vite ✓
+[2025-06-26T14:45:59.674Z] [INFO] .env file found ✓
+[2025-06-26T14:45:59.682Z] [INFO] Port 5199 is available ✓
+[2025-06-26T14:54:51.125Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-26T14:54:51.126Z] [INFO] package.json ✓
+[2025-06-26T14:54:51.127Z] [INFO] vite.config.ts ✓
+[2025-06-26T14:54:51.127Z] [INFO] tsconfig.json ✓
+[2025-06-26T14:54:51.128Z] [INFO] src/main.tsx ✓
+[2025-06-26T14:54:51.128Z] [INFO] src/App.tsx ✓
+[2025-06-26T14:54:51.128Z] [INFO] index.html ✓
+[2025-06-26T14:54:51.129Z] [INFO] react ✓
+[2025-06-26T14:54:51.136Z] [INFO] react-dom ✓
+[2025-06-26T14:54:51.137Z] [INFO] vite ✓
+[2025-06-26T14:54:51.138Z] [INFO] .env file found ✓
+[2025-06-26T14:54:51.146Z] [INFO] Port 5199 is available ✓
+[2025-06-26T14:57:00.868Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-26T14:57:00.869Z] [INFO] package.json ✓
+[2025-06-26T14:57:00.869Z] [INFO] vite.config.ts ✓
+[2025-06-26T14:57:00.870Z] [INFO] tsconfig.json ✓
+[2025-06-26T14:57:00.870Z] [INFO] src/main.tsx ✓
+[2025-06-26T14:57:00.870Z] [INFO] src/App.tsx ✓
+[2025-06-26T14:57:00.871Z] [INFO] index.html ✓
+[2025-06-26T14:57:00.872Z] [INFO] react ✓
+[2025-06-26T14:57:00.879Z] [INFO] react-dom ✓
+[2025-06-26T14:57:00.879Z] [INFO] vite ✓
+[2025-06-26T14:57:00.881Z] [INFO] .env file found ✓
+[2025-06-26T14:57:00.890Z] [INFO] Port 5199 is available ✓
+[2025-06-27T01:27:04.469Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-27T01:27:04.470Z] [INFO] package.json ✓
+[2025-06-27T01:27:04.470Z] [INFO] vite.config.ts ✓
+[2025-06-27T01:27:04.471Z] [INFO] tsconfig.json ✓
+[2025-06-27T01:27:04.472Z] [INFO] src/main.tsx ✓
+[2025-06-27T01:27:04.472Z] [INFO] src/App.tsx ✓
+[2025-06-27T01:27:04.473Z] [INFO] index.html ✓
+[2025-06-27T01:27:04.474Z] [INFO] react ✓
+[2025-06-27T01:27:04.483Z] [INFO] react-dom ✓
+[2025-06-27T01:27:04.483Z] [INFO] vite ✓
+[2025-06-27T01:27:04.485Z] [INFO] .env file found ✓
+[2025-06-27T01:27:04.496Z] [INFO] Port 5199 is available ✓
+[2025-06-27T01:36:18.454Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-27T01:36:18.457Z] [INFO] package.json ✓
+[2025-06-27T01:36:18.457Z] [INFO] vite.config.ts ✓
+[2025-06-27T01:36:18.457Z] [INFO] tsconfig.json ✓
+[2025-06-27T01:36:18.457Z] [INFO] src/main.tsx ✓
+[2025-06-27T01:36:18.458Z] [INFO] src/App.tsx ✓
+[2025-06-27T01:36:18.458Z] [INFO] index.html ✓
+[2025-06-27T01:36:18.460Z] [INFO] react ✓
+[2025-06-27T01:36:18.467Z] [INFO] react-dom ✓
+[2025-06-27T01:36:18.468Z] [INFO] vite ✓
+[2025-06-27T01:36:18.469Z] [INFO] .env file found ✓
+[2025-06-27T01:36:18.481Z] [INFO] Port 5199 is available ✓
+[2025-06-27T01:36:50.279Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-27T01:36:50.280Z] [INFO] package.json ✓
+[2025-06-27T01:36:50.280Z] [INFO] vite.config.ts ✓
+[2025-06-27T01:36:50.281Z] [INFO] tsconfig.json ✓
+[2025-06-27T01:36:50.281Z] [INFO] src/main.tsx ✓
+[2025-06-27T01:36:50.281Z] [INFO] src/App.tsx ✓
+[2025-06-27T01:36:50.281Z] [INFO] index.html ✓
+[2025-06-27T01:36:50.283Z] [INFO] react ✓
+[2025-06-27T01:36:50.288Z] [INFO] react-dom ✓
+[2025-06-27T01:36:50.289Z] [INFO] vite ✓
+[2025-06-27T01:36:50.290Z] [INFO] .env file found ✓
+[2025-06-27T01:36:50.298Z] [INFO] Port 5199 is available ✓
+[2025-06-27T03:01:23.025Z] [INFO] Node.js v20.19.1 ✓
+[2025-06-27T03:01:23.027Z] [INFO] package.json ✓
+[2025-06-27T03:01:23.027Z] [INFO] vite.config.ts ✓
+[2025-06-27T03:01:23.027Z] [INFO] tsconfig.json ✓
+[2025-06-27T03:01:23.028Z] [INFO] src/main.tsx ✓
+[2025-06-27T03:01:23.028Z] [INFO] src/App.tsx ✓
+[2025-06-27T03:01:23.028Z] [INFO] index.html ✓
+[2025-06-27T03:01:23.029Z] [INFO] react ✓
+[2025-06-27T03:01:23.035Z] [INFO] react-dom ✓
+[2025-06-27T03:01:23.036Z] [INFO] vite ✓
+[2025-06-27T03:01:23.037Z] [INFO] .env file found ✓
+[2025-06-27T03:01:23.047Z] [INFO] Port 5199 is available ✓
+[2025-06-27T03:38:04.208Z] [INFO] Node.js v18.20.3 ✓
+[2025-06-27T03:38:04.210Z] [INFO] package.json ✓
+[2025-06-27T03:38:04.211Z] [INFO] vite.config.ts ✓
+[2025-06-27T03:38:04.211Z] [INFO] tsconfig.json ✓
+[2025-06-27T03:38:04.212Z] [INFO] src/main.tsx ✓
+[2025-06-27T03:38:04.212Z] [INFO] src/App.tsx ✓
+[2025-06-27T03:38:04.213Z] [INFO] index.html ✓
+[2025-06-27T03:38:04.215Z] [INFO] react ✓
+[2025-06-27T03:38:04.216Z] [INFO] react-dom ✓
+[2025-06-27T03:38:04.216Z] [INFO] vite ✓
+[2025-06-27T03:38:04.217Z] [INFO] .env file found ✓
+[2025-06-27T03:38:04.230Z] [INFO] Port 5199 is available ✓

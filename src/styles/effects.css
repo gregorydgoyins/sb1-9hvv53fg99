@@ -1,0 +1,242 @@
+/* Visual Effects Styles */
+
+/* Card Glow Effects */
+.card-glow {
+  @apply transition-all duration-300 hover:shadow-[0_0_15px_rgba(99,102,241,0.4)];
+}
+
+.card-glow-yellow {
+  @apply transition-all duration-300 hover:shadow-[0_0_15px_rgba(255,255,0,0.4)];
+}
+
+.card-glow-green {
+  @apply transition-all duration-300 hover:shadow-[0_0_15px_rgba(34,197,94,0.4)];
+}
+
+.card-glow-purple {
+  @apply transition-all duration-300 hover:shadow-[0_0_15px_rgba(147,51,234,0.4)];
+}
+
+.card-glow-indigo {
+  @apply transition-all duration-300 hover:shadow-[0_0_15px_rgba(99,102,241,0.4)];
+}
+
+.card-selected {
+  @apply shadow-[0_0_15px_rgba(255,255,0,0.9)] -translate-y-1;
+}
+
+/* Hover Lift Animation */
+.hover-lift {
+  @apply transition-transform duration-300 hover:-translate-y-1;
+}
+
+/* Pulse Glow Animation */
+@keyframes pulse-glow {
+  0%, 100% {
+    filter: drop-shadow(0 0 5px rgba(99, 102, 241, 0.4));
+  }
+  50% {
+    filter: drop-shadow(0 0 10px rgba(99, 102, 241, 0.7));
+  }
+}
+
+.pulse-glow {
+  animation: pulse-glow 2s ease-in-out infinite;
+}
+
+@keyframes pulse-glow-yellow {
+  0%, 100% {
+    filter: drop-shadow(0 0 5px rgba(255, 255, 0, 0.4));
+  }
+  50% {
+    filter: drop-shadow(0 0 10px rgba(255, 255, 0, 0.7));
+  }
+}
+
+.pulse-glow-yellow {
+  animation: pulse-glow-yellow 2s ease-in-out infinite;
+}
+
+@keyframes pulse-glow-green {
+  0%, 100% {
+    filter: drop-shadow(0 0 5px rgba(34, 197, 94, 0.4));
+  }
+  50% {
+    filter: drop-shadow(0 0 10px rgba(34, 197, 94, 0.7));
+  }
+}
+
+.pulse-glow-green {
+  animation: pulse-glow-green 2s ease-in-out infinite;
+}
+
+@keyframes pulse-glow-red {
+  0%, 100% {
+    filter: drop-shadow(0 0 5px rgba(239, 68, 68, 0.4));
+  }
+  50% {
+    filter: drop-shadow(0 0 10px rgba(239, 68, 68, 0.7));
+  }
+}
+
+.pulse-glow-red {
+  animation: pulse-glow-red 2s ease-in-out infinite;
+}
+
+/* Graph Glow Effects */
+.chart-glow {
+  filter: drop-shadow(0 0 8px rgba(99, 102, 241, 0.3));
+}
+
+.chart-glow-hover {
+  @apply transition-all duration-300;
+  filter: drop-shadow(0 0 5px rgba(99, 102, 241, 0.2));
+}
+
+.chart-glow-hover:hover {
+  filter: drop-shadow(0 0 12px rgba(99, 102, 241, 0.5));
+}
+
+/* Shimmer Animation */
+@keyframes shimmer {
+  0% {
+    background-position: -200% 0;
+  }
+  100% {
+    background-position: 200% 0;
+  }
+}
+
+.shimmer-effect {
+  background: linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 0) 0%,
+    rgba(255, 255, 255, 0.05) 25%,
+    rgba(255, 255, 255, 0.1) 50%,
+    rgba(255, 255, 255, 0.05) 75%,
+    rgba(255, 255, 255, 0) 100%
+  );
+  background-size: 200% 100%;
+  animation: shimmer 2s infinite linear;
+}
+
+/* Ticker Animation */
+@keyframes ticker-slide {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(-100%);
+  }
+}
+
+.ticker-slide {
+  animation: ticker-slide 40s linear infinite;
+}
+
+.ticker-slide:hover {
+  animation-play-state: paused;
+}
+
+/* Fade In Animation */
+@keyframes fade-in {
+  from {
+    opacity: 0;
+    transform: translateY(10px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.animate-fade-in {
+  animation: fade-in 0.3s ease-out forwards;
+}
+
+/* Button Glow Effects */
+.btn-glow {
+  @apply transition-all duration-300;
+  box-shadow: 0 0 0 rgba(99, 102, 241, 0);
+}
+
+.btn-glow:hover {
+  box-shadow: 0 0 15px rgba(99, 102, 241, 0.5);
+}
+
+/* Diversification Score Glow Effects */
+.diversification-excellent {
+  @apply transition-all duration-300 hover:shadow-[0_0_15px_rgba(34,197,94,0.7)];
+}
+
+.diversification-good {
+  @apply transition-all duration-300 hover:shadow-[0_0_15px_rgba(96,165,250,0.7)];
+}
+
+.diversification-moderate {
+  @apply transition-all duration-300 hover:shadow-[0_0_15px_rgba(234,179,8,0.7)];
+}
+
+.diversification-poor {
+  @apply transition-all duration-300 hover:shadow-[0_0_15px_rgba(249,115,22,0.7)];
+}
+
+.diversification-critical {
+  @apply transition-all duration-300 hover:shadow-[0_0_15px_rgba(239,68,68,0.7)];
+}
+
+/* Badge Styles */
+.badge {
+  @apply px-2 py-1 rounded-full text-xs font-medium border;
+}
+
+.badge-positive {
+  @apply bg-green-900/50 text-green-200 border-green-700/50;
+}
+
+.badge-negative {
+  @apply bg-red-900/50 text-red-200 border-red-700/50;
+}
+
+.badge-neutral {
+  @apply bg-yellow-900/50 text-yellow-200 border-yellow-700/50;
+}
+
+.badge-info {
+  @apply bg-indigo-900/50 text-indigo-300 border-indigo-700/50;
+}
+
+/* Stat Card Styles */
+.stat-card {
+  @apply bg-slate-700/50 p-4 rounded-lg border border-slate-600/50 transition-all;
+}
+
+.stat-card-positive {
+  @apply bg-green-900/30 p-4 rounded-lg border border-green-700/30 transition-all;
+}
+
+.stat-card-negative {
+  @apply bg-red-900/30 p-4 rounded-lg border border-red-700/30 transition-all;
+}
+
+/* Chart Container */
+.chart-container {
+  @apply relative rounded-lg overflow-hidden;
+}
+
+/* Accessibility - Reduce Motion */
+@media (prefers-reduced-motion: reduce) {
+  .pulse-glow,
+  .pulse-glow-yellow,
+  .pulse-glow-green,
+  .pulse-glow-red,
+  .shimmer-effect,
+  .ticker-slide,
+  .animate-fade-in {
+    animation: none !important;
+  }
+  
+  .hover-lift:hover {
+    transform: none !important;
+  }
+}

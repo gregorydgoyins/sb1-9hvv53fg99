@@ -1,0 +1,14 @@
+{
+  "$schema": "https://unpkg.com/knip@latest/schema.json",
+  "entry": ["src/main.tsx", "src/App.tsx"],
+  "project": ["src/**/*.{ts,tsx}"],
+  "ignore": ["**/*.d.ts", "**/*.test.{ts,tsx}", "**/*.spec.{ts,tsx}"],
+  "ignoreDependencies": ["@testing-library/*", "jsdom", "vitest"],
+  "ignoreExportsUsedInFile": true,
+  "rules": {
+    "exports": "error",
+    "types": "error",
+    "files": "error",
+    "dependencies": "error"
+  }
+}
