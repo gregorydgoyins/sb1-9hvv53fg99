@@ -1,21 +1,16 @@
 import os
 import sys
-import json
-import time
 import smtplib
 from email.mime.text import MIMEText
 from pathlib import Path
-
 from supabase import create_client, Client
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
 from google.oauth2 import service_account
 
-# --- CONFIG ---
-
 SUPABASE_URL = os.environ.get("SUPABASE_URL")
 SUPABASE_SERVICE_ROLE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
-BUCKET = "panel-profits-core"  # adjust if needed
+BUCKET = "panel-profits-core"  # Change only if your bucket is different
 
 GDRIVE_FOLDER_ID = os.environ.get("FOLDER_ID")
 GOOGLE_SECRETS_FILE = "client_secrets.json"
@@ -27,8 +22,6 @@ EMAIL_ALERT = os.environ.get("EMAIL_ALERT")
 TEMP_DOWNLOAD = Path("tmp_download")
 TEMP_DOWNLOAD.mkdir(exist_ok=True)
 
-# --- SETUP CLIENTS ---
-
 def get_gdrive_service():
     creds = service_account.Credentials.from_service_account_file(
         GOOGLE_SECRETS_FILE,
@@ -38,8 +31,6 @@ def get_gdrive_service():
 
 def get_supabase():
     return create_client(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)
-
-# --- DOWNLOAD FROM GOOGLE DRIVE ---
 
 def list_gdrive_files(service, folder_id):
     results = service.files().list(
@@ -59,8 +50,6 @@ def download_file(service, file_id, filename):
             status, done = downloader.next_chunk()
     return filepath
 
-# --- UPLOAD TO SUPABASE ---
-
 def upload_to_supabase(supabase: Client, filepath: Path, bucket: str):
     with open(filepath, "rb") as f:
         res = supabase.storage.from_(bucket).upload(
@@ -69,8 +58,6 @@ def upload_to_supabase(supabase: Client, filepath: Path, bucket: str):
             file_options={"content-type": "application/octet-stream"}
         )
     return res
-
-# --- EMAIL NOTIFICATION ---
 
 def send_email(subject, body):
     if not (EMAIL_USER and EMAIL_PASS and EMAIL_ALERT):
@@ -83,8 +70,6 @@ def send_email(subject, body):
     with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
         server.login(EMAIL_USER, EMAIL_PASS)
         server.send_message(msg)
-
-# --- MAIN WORKFLOW ---
 
 def main():
     try:
@@ -103,10 +88,8 @@ def main():
             print(f"Uploading: {f['name']} to Supabase...")
             upload_to_supabase(supabase, dl_path, BUCKET)
             uploaded.append(f['name'])
-            # Optionally, cleanup the downloaded file
             dl_path.unlink(missing_ok=True)
 
-        # Notify
         msg = f"Uploaded files: {uploaded}" if uploaded else "No files found."
         print(msg)
         send_email("Supabase upload complete", msg)
