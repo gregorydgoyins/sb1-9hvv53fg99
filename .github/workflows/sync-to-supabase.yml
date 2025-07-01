@@ -24,7 +24,10 @@ jobs:
           pip install -r requirements.txt
 
       - name: Create secrets file
-        run: echo "${{ secrets.GOOGLE_CLIENT_SECRETS }}" > client_secrets.json
+        run: echo "${{ secrets.GOOGLE_CLIENT_SECRETS }}" | base64 --decode > client_secrets.json
+
+      - name: Print client_secrets.json (debug)
+        run: cat client_secrets.json
 
       - name: Run Supabase Uploader
         run: python supabaseuploader.py
