@@ -27,7 +27,7 @@ jobs:
         run: echo "${{ secrets.GOOGLE_CLIENT_SECRETS }}" > client_secrets.json
 
       - name: Run Supabase Uploader
-        run: python supabaseuploadere.py
+        run: python supabaseuploader.py
 
         env:
           SUPABASE_SERVICE_ROLE_KEY: ${{ secrets.SUPABASE_SERVICE_ROLE_KEY }}
