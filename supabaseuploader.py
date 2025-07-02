@@ -8,7 +8,7 @@ from googleapiclient.discovery import build
 SUPABASE_URL = "https://ghjlzrmuugquumqwlqgl.supabase.co"
 SUPABASE_SERVICE_ROLE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imdoamx6cm11dWdxdXVtcXdscWdsIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0ODY3MjkwOSwiZXhwIjoyMDY0MjQ4OTA5fQ.MNR1LTmZ113qVoYRsuuaHpXCA9fCdh4bCfZIM745O_M"
 GDRIVE_FOLDER_ID = "1TggvWCw1GCVNQG50prleB9R7MLwkeD6P"
-GOOGLE_CLIENT_SECRETS_FILE = "/Users/gregoryd.goyins/DLVAULT/panel-profits-new-86df286c4588.json"
+GOOGLE_CLIENT_SECRETS_FILE = "client_secrets.json"  # <-- FIXED: now relative for GitHub Actions
 
 # === SETUP SUPABASE ===
 supabase: Client = create_client(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)
