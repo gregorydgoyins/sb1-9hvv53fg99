@@ -1,104 +1,53 @@
 import os
-import sys
-import smtplib
-from email.mime.text import MIMEText
-from pathlib import Path
+import json
 from supabase import create_client, Client
-from googleapiclient.discovery import build
-from googleapiclient.http import MediaIoBaseDownload
 from google.oauth2 import service_account
+from googleapiclient.discovery import build
 
-SUPABASE_URL = os.environ.get("SUPABASE_URL")
-SUPABASE_SERVICE_ROLE_KEY = os.environ.get("SUPABASE_SERVICE_ROLE_KEY")
-BUCKET = "panel-profits-core"  # Change only if your bucket is different
+# === CONFIG (replace with your actual paths and values as needed) ===
+SUPABASE_URL = "https://ghjlzrmuugquumqwlqgl.supabase.co"
+SUPABASE_SERVICE_ROLE_KEY = "YOUR_SERVICE_ROLE_KEY"
+GDRIVE_FOLDER_ID = "1TggvWCw1GCVNQG50prleB9R7MLwkeD6P"
+GOOGLE_CLIENT_SECRETS_FILE = "/Users/gregoryd.goyins/DLVAULT/panel-profits-new-86df286c4588.json"
 
-GDRIVE_FOLDER_ID = os.environ.get("FOLDER_ID")
-GOOGLE_SECRETS_FILE = "client_secrets.json"
+# === SETUP SUPABASE ===
+supabase: Client = create_client(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)
 
-EMAIL_USER = os.environ.get("EMAIL_USER")
-EMAIL_PASS = os.environ.get("EMAIL_PASS")
-EMAIL_ALERT = os.environ.get("EMAIL_ALERT")
+# === SETUP GOOGLE DRIVE ===
+creds = service_account.Credentials.from_service_account_file(
+    GOOGLE_CLIENT_SECRETS_FILE,
+    scopes=["https://www.googleapis.com/auth/drive.readonly"],
+)
+drive_service = build('drive', 'v3', credentials=creds)
 
-TEMP_DOWNLOAD = Path("tmp_download")
-TEMP_DOWNLOAD.mkdir(exist_ok=True)
-
-def get_gdrive_service():
-    creds = service_account.Credentials.from_service_account_file(
-        GOOGLE_SECRETS_FILE,
-        scopes=['https://www.googleapis.com/auth/drive']
-    )
-    return build('drive', 'v3', credentials=creds)
-
-def get_supabase():
-    return create_client(SUPABASE_URL, SUPABASE_SERVICE_ROLE_KEY)
-
-def list_gdrive_files(service, folder_id):
-    results = service.files().list(
+def list_files(folder_id):
+    results = drive_service.files().list(
         q=f"'{folder_id}' in parents and trashed = false",
         pageSize=1000,
-        fields="files(id, name, mimeType)"
+        fields="nextPageToken, files(id, name)"
     ).execute()
     return results.get('files', [])
 
-def download_file(service, file_id, filename):
-    request = service.files().get_media(fileId=file_id)
-    filepath = TEMP_DOWNLOAD / filename
-    with open(filepath, "wb") as fh:
-        downloader = MediaIoBaseDownload(fh, request)
-        done = False
-        while not done:
-            status, done = downloader.next_chunk()
-    return filepath
-
-def upload_to_supabase(supabase: Client, filepath: Path, bucket: str):
-    with open(filepath, "rb") as f:
-        res = supabase.storage.from_(bucket).upload(
-            str(filepath.name),
-            f,
-            file_options={"content-type": "application/octet-stream"}
-        )
-    return res
-
-def send_email(subject, body):
-    if not (EMAIL_USER and EMAIL_PASS and EMAIL_ALERT):
-        print("Email config not set, skipping email.")
-        return
-    msg = MIMEText(body)
-    msg['Subject'] = subject
-    msg['From'] = EMAIL_USER
-    msg['To'] = EMAIL_ALERT
-    with smtplib.SMTP_SSL('smtp.gmail.com', 465) as server:
-        server.login(EMAIL_USER, EMAIL_PASS)
-        server.send_message(msg)
+def upload_to_supabase(file_path, table='your_table_name'):
+    # Write your logic to upload file to Supabase
+    pass
 
 def main():
-    try:
-        print("Authenticating to Google Drive...")
-        drive_service = get_gdrive_service()
-        print("Connecting to Supabase...")
-        supabase = get_supabase()
-        print(f"Listing files in Google Drive folder: {GDRIVE_FOLDER_ID}")
-        files = list_gdrive_files(drive_service, GDRIVE_FOLDER_ID)
-        print(f"Found {len(files)} files to sync.")
+    print("Authenticating to Google Drive...")
+    print("Connecting to Supabase...")
+    files = list_files(GDRIVE_FOLDER_ID)
+    print(f"Found {len(files)} files to sync.")
 
-        uploaded = []
-        for f in files:
-            print(f"Downloading: {f['name']}")
-            dl_path = download_file(drive_service, f["id"], f["name"])
-            print(f"Uploading: {f['name']} to Supabase...")
-            upload_to_supabase(supabase, dl_path, BUCKET)
-            uploaded.append(f['name'])
-            dl_path.unlink(missing_ok=True)
+    # Do your upload logic here...
+    for f in files:
+        print(f"File found: {f['name']} (ID: {f['id']})")
+        # Example: upload_to_supabase(f['name']) # add your logic
 
-        msg = f"Uploaded files: {uploaded}" if uploaded else "No files found."
-        print(msg)
-        send_email("Supabase upload complete", msg)
-
-    except Exception as e:
-        err_msg = f"Error in sync: {e}"
-        print(err_msg)
-        send_email("Supabase upload FAILED", err_msg)
-        sys.exit(1)
+    # --- EMAIL BLOCK DISABLED ---
+    # try:
+    #     send_email("Supabase upload complete", "Files have been synced to Supabase.")
+    # except Exception as e:
+    #     print(f"Email notification failed: {e}")
 
 if __name__ == "__main__":
     main()
