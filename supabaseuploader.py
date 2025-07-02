@@ -6,7 +6,7 @@ from googleapiclient.discovery import build
 
 # === CONFIG (replace with your actual paths and values as needed) ===
 SUPABASE_URL = "https://ghjlzrmuugquumqwlqgl.supabase.co"
-SUPABASE_SERVICE_ROLE_KEY = "YOUR_SERVICE_ROLE_KEY"
+SUPABASE_SERVICE_ROLE_KEY = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJpc3MiOiJzdXBhYmFzZSIsInJlZiI6Imdoamx6cm11dWdxdXVtcXdscWdsIiwicm9sZSI6InNlcnZpY2Vfcm9sZSIsImlhdCI6MTc0ODY3MjkwOSwiZXhwIjoyMDY0MjQ4OTA5fQ.MNR1LTmZ113qVoYRsuuaHpXCA9fCdh4bCfZIM745O_M"
 GDRIVE_FOLDER_ID = "1TggvWCw1GCVNQG50prleB9R7MLwkeD6P"
 GOOGLE_CLIENT_SECRETS_FILE = "/Users/gregoryd.goyins/DLVAULT/panel-profits-new-86df286c4588.json"
 
